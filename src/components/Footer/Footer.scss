@@ -1,0 +1,208 @@
+@import "../../styles/_variables.scss";
+@import "../../styles/_colors.scss";
+
+.footer {
+  width: 100%;
+  padding: 32px 0px 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  .wrap-footer {
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.top {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  @media (min-width: 1024px) {
+    border-bottom: $StyleSeparator;
+    width: 100%;
+    max-width: 1260px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.links {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media (min-width: 1024px) {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .logo {
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px 0px;
+
+    @media (max-width: 1023px) {
+      width: inherit;
+      border-bottom: $StyleSeparator;
+    }
+  }
+}
+
+.medium {
+  display: none;
+  border-bottom: $StyleSeparator;
+
+  .wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  @media (min-width: 1024px) {
+    width: inherit;
+    max-width: 1260px;
+    display: flex;
+    justify-content: center;
+    .block-links {
+      width: inherit;
+      padding-left: 0px;
+    }
+  }
+}
+
+.bottom {
+  .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  @media (min-width: 1024px) {
+    width: 100%;
+    max-width: 1260px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .wrap {
+      width: 1260px;
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+    }
+    .column {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+
+.gda-fiscal {
+  width: 400px;
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  @media (max-width: 1023px) {
+      width: 270px;
+  }
+}
+
+.span-gda {
+  margin-left: 20px;
+  text-align: left;
+}
+
+.gda {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.bottom-rev {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Arial;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: $MarqueeColor;
+
+  @media (max-width: 800px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Arial;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: $MarqueeColor;
+  }
+}
+
+.copyright {
+  margin-top: 35px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+
+  @media (max-width: 1023px) {
+    margin: 27px;
+  }
+}
+
+.links-bottomRight {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .links-bottomRight-text {
+    margin-top: 12px;
+    margin-right: 10px;
+    font-size: 15px;
+  }
+}
+
+.social {
+  padding: 32px 0px;
+  width: 192px;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dowl {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 32px;
+  width: 272px;
+  height: 35px;
+  a > img {
+    border-radius: 3px;
+    padding: 10px 10px 10px;
+  }
+}

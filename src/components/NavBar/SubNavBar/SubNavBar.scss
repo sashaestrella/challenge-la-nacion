@@ -1,0 +1,114 @@
+@import "../../../styles/_colors.scss";
+@import "../../../styles/_variables.scss";
+
+.sub-navbar {
+  .newsl, .weather, .clubn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: transparent;
+    border: transparent;
+  }
+
+  .benef {
+    margin-right: 10px;
+  }
+
+  @media (min-width: 1259px) {
+    .lay {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    background-color: $SecondaryColor;
+  }
+
+  @media (max-width: 1023px) {
+    .newsl, .weather {
+      display: none;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .clubn {
+      display: none;
+    }
+  }
+
+  @media (max-width: 351px) {
+    .a-dolar {
+      display: none;
+    }
+  }
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+
+  @media (min-width: 1259px) {
+    width: $MaxWidth;
+  }
+}
+
+.newsl, .clubn {
+  text-decoration: none;
+  color: $PrimaryColorBlue;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.dolar {
+  height: 40px;
+  min-width: 335px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.dolar-bna {
+  font-size: 0.875rem;
+  padding-right: 10px;
+  font-weight: 700;
+  &::before {
+    content: "BNA:";
+    font-weight: 400;
+  }
+}
+
+.dolar-blue {
+  font-size: 0.875rem;
+  padding-right: 10px;
+  font-weight: 700;
+  &::before {
+    content: "Blue:";
+    font-weight: 400;
+  }
+}
+
+.a-dolar {
+  text-decoration: none;
+  padding-right: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  color: $PrimaryColorBlue;
+}
+
+.weather {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.weather-icon {
+  width: 22px;
+}
+
+.grad {
+  font-size: 14px;
+  font-weight: 700;
+  padding: 0px 6px;
+}

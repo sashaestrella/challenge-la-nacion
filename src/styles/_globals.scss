@@ -1,0 +1,15 @@
+$SuecaSlab-font-path: '../assets/fonts';
+
+@font-face {
+    src: url("#{$SuecaSlab-font-path}/suecaslab-bold.woff") format("woff2");
+    font-family: "SuecaSlab-Bold";
+    font-weight: 700px;
+    font-style: normal;
+}
+  
+@font-face {
+    src: url("#{$SuecaSlab-font-path}/suecaslab-medium.woff") format("woff2");
+    font-family: "SuecaSlab-Medium";
+    font-weight: 400px;
+    font-style: normal;
+}

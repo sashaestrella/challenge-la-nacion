@@ -1,0 +1,22 @@
+@import "../../styles/_colors.scss";
+
+.navbar {
+    position: sticky; 
+    top: 0;
+    background-color: white;
+    border-bottom: $StyleSeparator;
+    padding: 12px 0px;
+    
+    @media (min-width: 1259px) {
+      .lay {
+        display: flex;
+        justify-content: center;
+      }
+    }
+}
+
+.lay {
+    width: inherit;
+    font: inherit;
+    padding: 0px 16px;
+}
