@@ -1,8 +1,20 @@
-import { render, screen } from '@testing-library/react';
+import { BrowserRouter } from 'react-router-dom'
+import { render } from '@testing-library/react'
+import Home from './pages/Home/Home';
 import App from './App';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
-});
+describe('Test for App', () => {
+  test('Rendering', () => {
+    const {getByTestId} = render(<App />)
+    expect(getByTestId('app')).toBeInTheDocument()
+  })
+
+  test('App renders Home', () => {
+    window.history.pushState({}, 'Test page', '/')
+    render(
+      <BrowserRouter>
+        <Home />
+      </BrowserRouter>,
+    )
+  })
+})
