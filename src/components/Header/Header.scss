@@ -1,0 +1,99 @@
+@import "../../styles/_variables.scss";
+@import "../../styles/_colors.scss";
+
+.container-card {
+  width: inherit;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 457px;
+  width: 100%;
+  color: $NeutralColorWhite;
+  background-image: url("../../assets/images/default-image.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  @media (max-width: 767px) {
+    margin-bottom: 64px;
+  }
+
+  @media (min-width: 768px) {
+    height: 768px;
+    .card-bottom {
+      height: 256px;
+      h1 {
+        font-size: 48px;
+        font-family: SuecaSlab-Bold;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 48px;
+        line-height: 56px;
+      }
+    }
+  }
+
+  @media (min-width: 1259px) {
+    .card-bottom {
+      height: 200px;
+    }
+    height: 820px;
+    .wrap {
+      width: 1260px;
+    }
+  }
+}
+
+.card-bottom {
+  padding: 16px;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.65) 62.76%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 216px;
+}
+
+.wrap-card {
+  max-width: 1260px;
+
+  h1 {
+    font-family: SuecaSlab-Bold;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    margin: 0px;
+    padding: 12px 0px 8px;
+  }
+
+  span {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: $SecondaryColor;
+  }
+}
+
+.sectionName {
+  padding: 4px 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 11px;
+  width: 84px;
+  height: 24px;
+  background-color: $NeutralColorBlack;
+  color: $NeutralColorWhite;
+}

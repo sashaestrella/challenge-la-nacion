@@ -1,0 +1,51 @@
+@import "../../../../styles/_colors.scss";
+
+.modul-title {
+  padding: 0px 16px;
+
+  h1 {
+    margin: 0px;
+    padding: 8px 0px;
+    border-bottom: $StyleSeparator;
+    font-family: SuecaSlab-Bold;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    color: $TitleModuleColor;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+}
+
+.block-art {
+    width: 100%;
+    padding-top: 5px;
+    
+    @media (min-width: 768px) {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+
+      .art-left {
+        border-right: $StyleSeparator;
+        padding-right: 40px;
+      }
+
+      .art-right {
+        padding-left: 40px;
+      }
+    }
+}
+  
+.sect-render {
+  margin-top: 20px;
+  
+  @media (min-width: 768px) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+  }
+}
