@@ -35,7 +35,9 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 </a> 
 <a><img src="https://img.shields.io/badge/html5%20-%23F7DF1E.svg?&style=for-the-badge&logo=html5&logoColor=white"/>
 </a> 
-<a><img src="https://sass.shields.io/badge/angular%20-%23DD0031.svg?&style=for-the-badge&logo=scss&logoColor=white"/>
+<a><img src="https://scss.shields.io/badge/scss%20-%23DD0031.svg?&style=for-the-badge&logo=scss&logoColor=white"/>
+</a> 
+<a><img src="https://javascript.shields.io/badge/javascript%20-%23DD0031.svg?&style=for-the-badge&logo=javascript&logoColor=white"/>
 </a> 
 <a><img src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/>
 </a> 
