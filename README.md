@@ -35,14 +35,14 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 </a> 
 <a><img src="https://img.shields.io/badge/html5%20-%23F7DF1E.svg?&style=for-the-badge&logo=html5&logoColor=white"/>
 </a> 
-<a><img src="https://sass.shields.io/badge/angular%20-%23DD0031.svg?&style=for-the-badge&logo=sass&logoColor=white"/>
+<a><img src="https://sass.shields.io/badge/angular%20-%23DD0031.svg?&style=for-the-badge&logo=scss&logoColor=white"/>
 </a> 
 <a><img src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/>
 </a> 
 
 ## Images
 ### 1920px
-![image](https://user-images.githubusercontent.com/37596403/138693755-44144e6b-b468-4cec-a145-870161befb4e.png)
+![image](https://user-images.githubusercontent.com/37596403/138694176-02a80485-6fe4-418e-80c8-d9b2f4c65c85.png)
 ### 768px
 ![image](https://user-images.githubusercontent.com/37596403/138693934-85a42ab1-6c38-40d5-81df-66089e28bdfd.png)
 ### 320px
