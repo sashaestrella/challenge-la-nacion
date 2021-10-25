@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Challenge La Nación
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -29,42 +29,22 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Used technology
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<a><img src="https://img.shields.io/badge/react%20-%23007ACC.svg?&style=for-the-badge&logo=react&logoColor=white"/>
+</a> 
+<a><img src="https://img.shields.io/badge/html5%20-%23F7DF1E.svg?&style=for-the-badge&logo=html5&logoColor=white"/>
+</a> 
+<a><img src="https://sass.shields.io/badge/angular%20-%23DD0031.svg?&style=for-the-badge&logo=sass&logoColor=white"/>
+</a> 
+<a><img src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/>
+</a> 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Images
+### 1920px
+![image](https://user-images.githubusercontent.com/37596403/138693755-44144e6b-b468-4cec-a145-870161befb4e.png)
+### 768px
+![image](https://user-images.githubusercontent.com/37596403/138693934-85a42ab1-6c38-40d5-81df-66089e28bdfd.png)
+### 320px
+![image](https://user-images.githubusercontent.com/37596403/138693985-d69fbfd5-beb7-4626-9ff8-808788fc8f70.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
