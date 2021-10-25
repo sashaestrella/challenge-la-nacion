@@ -7,9 +7,4 @@ describe('Test for ArticlesSection', () => {
     const { getByTestId } = render(<ArticlesSection articles={ARTICLES}/>)
     expect(getByTestId('ArticlesSection')).toBeInTheDocument()
   })
-
-  test("matches snapshot", () => {
-    const { asFragment } = render(<ArticlesSection articles={ARTICLES}/>);
-    expect(asFragment()).toMatchSnapshot();
-  });
 })

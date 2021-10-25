@@ -3,11 +3,11 @@ import "./Article.scss";
 
 function Article({ border, elements, titleSize, marqueeOnly, leftItem, authorOnly, imgBottom }) {
   return (
-    <article className="article">
+    <article className="article" data-testid="article">
       <div style={{border: border? "1px solid #cccccc" : ""}} >
         { elements.img && !imgBottom &&
           (
-            <div className="art-img">
+            <div className="art-img" data-testid="art-img">
               <img src={elements.img} alt="img-article"></img>
             </div>
           )
@@ -24,7 +24,7 @@ function Article({ border, elements, titleSize, marqueeOnly, leftItem, authorOnl
             </a>
           </h1>
 
-          { elements.subheader && <h2 className="subh">{elements.subheader}</h2>}
+          { elements.subheader && <h2 className="subh" data-testid="subh">{elements.subheader}</h2>}
 
           { elements.imgautor && (
             <div className="img-autor" style={{marginTop: border? 35 : 0}}>
